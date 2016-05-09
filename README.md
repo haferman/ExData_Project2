@@ -72,15 +72,21 @@ For each plot you should
 # Answers to questions
 
 1. Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? Using the base plotting system, make a plot showing the total PM2.5 emission from all sources for each of the years 1999, 2002, 2005, and 2008.
+
 ANS: plot1 shows that total PM2.5 emissions have decreased year over year in each of the four years.
 2. Have total emissions from PM2.5 decreased in the Baltimore City, Maryland (fips == "24510") from 1999 to 2008? Use the base plotting system to make a plot answering this question.
+
 ANS: plot2 shows that total PM2.5 emissions have decreased in Baltimore City from 1999 to 2008 (though there was an increase from 2002 to 2005).
 3. Of the four types of sources indicated by the type (point, nonpoint, onroad, nonroad) variable, which of these four sources have seen decreases in emissions from 1999–2008 for Baltimore City? Which have seen increases in emissions from 1999–2008? Use the ggplot2 plotting system to make a plot answer this question.
+
 ANS: "non-point", "non-road", and "on-road" have had a decreasing trend from 1999-2008. "point" source increased substantially from 1999 to 2002, and from 2002 to 2005, and then decreased in 2008 to just above 1999 levels.
 4. Across the United States, how have emissions from coal combustion-related sources changed from 1999–2008?
+
 ANS: Emissions from coal combustion-related sources were somewhat stead in 1999, 2002, and 2005, then dropped significantly in 2008.
 5. How have emissions from motor vehicle sources changed from 1999–2008 in Baltimore City?
+
 ANS: Emissions from motor vehicle sources have dropped from 1999-2008 in Baltimore City.
 6. Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in Los Angeles County, California (fips == "06037"). Which city has seen greater changes over time in motor vehicle emissions?
+
 ANS: In terms of absolute magnitude of the changes, Los Angeles has seen greater changes over time (both increases and decreases.
 
